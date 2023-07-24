@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+  flex-wrap: wrap;
+}
+
+.food-card {
+  width: 400px;
+  margin-top: 50px auto;
+  border: 1px solid grey;
+  border-radius: 14px;
+  margin: 15px;
+  padding: 20px;
+  position: relative;
+}
+.food-img {
+  width: 100%;
+  border-radius: 14px;
+  display: flex;
+  border: 1px solid lightgrey;
+}
+
+.icons {
+  justify-content: space-between;
+  display: flex;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  margin: 20px 1px;
+  background-color: rgb(240, 59, 59);
+  padding: 1px 15px;
+  color: white;
+}
+.ratings {
+  position: absolute;
+  bottom: 147px;
+  margin: 1px 1px;
+  background-color: rgb(215, 232, 104);
+  padding: 1px 15px;
+  color: rgb(17, 4, 4);
+}
+.best-seller {
+  position: absolute;
+  bottom: 147px;
+  margin: 1px 1px;
+  background-color: rgb(60, 184, 246);
+  padding: 1px 15px;
+  color: rgb(255, 250, 250);
+  border-radius: 2px;
+}
+.must-try {
+  position: absolute;
+  top: 0px;
+  margin: 20px 1px;
+  background-color: rgb(121, 233, 121);
+  padding: 1px 15px;
+  color: rgb(17, 4, 4);
+  border-radius: 2px;
+}
+.nav {
+  width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  align-items: center;
+  position: relative;
+}
+.logo {
+  height: 60px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: left;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bolder;
+  color: black;
+  position: absolute;
+  left: 0;
+  margin-left: -120px;
+}
+.search {
+  /* width: 200px;
+  padding: 3px 12px; */
+  border: 1px solid lightgray;
+  border-radius: 60px;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+}
+.search-btn {
+  border: none;
+  background-color: white;
+}
+.input {
+  width: 350px;
+  padding: 16px;
+  border: none;
+  font-size: 16px;
+}
+.links {
+  display: flex;
+  gap: 10px;
+}
+.link {
+  text-decoration: none;
+  margin: 10px;
+}
